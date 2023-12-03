@@ -36,7 +36,7 @@ Con Rancher Desktop, puede hacer lo siguiente:
 - Configurar los recursos del sistema para la máquina virtual (en Mac y Linux).
 - Reiniciar Kubernetes o el entorno de ejecución de contenedores a su configuración predeterminada con solo presionar un botón.
 
-## Ejemplo Rancher
+### Ejemplo Rancher
 
 En anteriores practicas vimos el uso de *Docker* o *Kubernetes* por separado pero ahora vamos a hacer uso de la herramienta de ***Rancher Desktop*** la cual encapsula los dos antes mencionados. Siendo así lo primero a efectuar en la practica es descargar [**Rancher**](https://github.com/rancher-sandbox/rancher-desktop/releases) desde su pagina oficial
 
@@ -63,9 +63,15 @@ Tambien tenemos la posibilidad de ver las imagenes que se encuentran activas por
 
 ![image](https://github.com/EfrainRP/Kubernetes---Fault-Tolerant/assets/142550697/3f5adbcb-041d-4e65-aafc-378437909af3)
 
+Y al igual que las imagenes que se encuentran activas tambien podemos ver los contenedores que se encuentran activos
 
-A continuación, podras entrar desde tu navegador con el url: ***localhost:30001***, con el cual nuestra implementacion gestionara los contenedores para redirigirnos a uno concretamente, facilitando el acceso a nuestro sitio Web.
+![image](https://github.com/EfrainRP/Kubernetes---Fault-Tolerant/assets/142550697/866b7b6e-854f-4f49-abdd-db5f94ffd48c)
+
+Note como ademas de los 5 que nostros creamos tambien existen otros 5 que en descripcion dicen *rancher/mirrored* esto es porque en caso de que eliminemos uno de nuestros contenedores rancher lo va a suplantar con el que tiene en copia
+
+Finalmente para ver el funcionamiento podras entrar desde tu navegador con el url: ***localhost:30001***, con el cual nuestra implementacion gestionara los contenedores para redirigirnos a uno concretamente, facilitando el acceso a nuestro sitio Web.
 Podras pobrar con los comandos explicados anteriormente, para poder observar el comportamiento que tiene los kubernetes en este sistema/sitio Web, lo cual nos ofrece ventajas para evitar caidas de pagina.
 
-## Conclución
-Kubernetes es una herramienta que nos permite el desarrollo y despliegue de aplicaciones modernas, que ofrece capacidades avanzadas de orquestación, escalabilidad y gestión de contenedores. Mediante esta actividad, tuve que realizar bastante investigación para entender como funciona correctamente Kubernetes ya que tienes que conocer no solo los comandos de Kubernetes sino que tambien la sintaxis y aplicaciones de sus propios archivos yaml. Pero al aplicar y probar los ejemplos sencillos de las paginas de Kubernetes y de DigitalOcean, pude realizar correctamente la actividad.
+## Istio
+
+Y aquí va a ir lo de Istio
