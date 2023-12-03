@@ -74,4 +74,7 @@ Podras pobrar con los comandos explicados anteriormente, para poder observar el 
 
 ## Istio
 
-Y aquí va a ir lo de Istio
+Primero descargamos la ultima version de Istio, que en nuestr caso fue istio-1.20.0-win.zip, esto en la pagina https://github.com/istio/istio/releases.
+
+
+
