@@ -76,5 +76,7 @@ Podras pobrar con los comandos explicados anteriormente, para poder observar el 
 
 Primero descargamos la ultima version de Istio, que en nuestr caso fue istio-1.20.0-win.zip, esto en la pagina https://github.com/istio/istio/releases.
 
+Abrimos en la barra de tareas, editar "Editar las variables de entorno del sistema". Dentro de las variables del usuario editamos la variable path y agregamos una nueva entrada a la carpeta `bin`
 
+imagen 1
 
