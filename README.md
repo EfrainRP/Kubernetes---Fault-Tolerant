@@ -6,7 +6,7 @@ CARRERA: **Ingeniería en Computación**
 
 **Andrea Gaspar Miramontes** CÓDIGO: **221350664**
 
-**Miguel Alejandro Lomeli Haro** CÓDIGO: ****
+**Miguel Alejandro Lomeli Haro** CÓDIGO: **221350486**
 
 **Maria Fernanda Barroso Monroy** CÓDIGO: **218128918**
 
