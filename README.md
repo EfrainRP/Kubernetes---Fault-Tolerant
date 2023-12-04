@@ -80,3 +80,5 @@ Abrimos en la barra de tareas, editar "Editar las variables de entorno del siste
 
 imagen 1
 
+Despues en el cmd 
+
