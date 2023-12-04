@@ -80,5 +80,17 @@ Abrimos en la barra de tareas, editar "Editar las variables de entorno del siste
 
 imagen 1
 
-Despues en el cmd 
+Despues en el cmd ejecutamos el comando `istioctl`
+
+imagen 2
+
+Finamlmente ya que se ejecuto el comando anterior, ahora se tiene que instalar el perfil demo mediante el siguiente comando `istioctl manifest apply --set profile=demo`
+
+imagen 3
+
+Para visualizar el panel de kiali, primero se tiene que ejecutar los siguiente `kubectl apply -f samples/addons/kiali.yaml` donde tienes que estar dentor de la carpeta de istio en el cmd.
+
+Y despues de todo lo anterior solo tienes que ejecutar lo siguiente `kubectl dashboard kiali` y ya podras ver el panel de Kiali.
+
+imagen 4
 
