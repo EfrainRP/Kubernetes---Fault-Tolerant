@@ -8,7 +8,7 @@ CARRERA: **Ingeniería en Computación**
 
 **Miguel Alejandro Lomeli Haro** CÓDIGO: ****
 
-**Fernanda** CÓDIGO: ****
+**Maria Fernanda Barroso Monroy** CÓDIGO: **218128918**
 
 **Computación Tolerante a Fallas**
 
@@ -100,5 +100,33 @@ Además de que si queremos ver la grafica del flujo de informacion de nuestra pa
 Y despues de todo lo anterior solo tienes que ejecutar lo siguiente `kubectl dashboard kiali` y ya podras ver el panel de Kiali.
 
 ![image](https://github.com/EfrainRP/Kubernetes---Fault-Tolerant/blob/main/Images/imagen%204.jpg)
+
+OWASP TOP 10:
+OWASP TOP 10 proyecto abierto de seguridad de aplicaciones web, es una organizacion internacional sin animo de lucro, dedicada a la seguridad de las aplicaciones web. 
+Este sistema tiene una estrategia basada en datos de analices de vulnerabilidades, al igual que se basa en la causa y no en la consecuencia. 
+Este tambien se basara en la inicidencia y no en la frecuencia es decir que se enofcara en el problema y no en la frecuencia con el que este ocurre. 
+
+Los factores de analisis:
+° CWE mapeados.
+° Tasa de incidencia.
+° Cobertura de prueba.
+° CVSS Score total (Daño/Impacto)
+° Impacto de la vulnerabilidad.
+
+Los tres principales metodos de analisis, son:
+° Broken Access Control: 
+Los controles de acceso permiten hacer cumplir las reglas de modo que los usuarios no pueden actuar fuera de sus permisos permitidos.
+° Fallos Criptograficos:
+Protege de robo y acceso no autorizado a la informacion sensible y que requiere proteccion adicional (puede ser un sniffer de red viendo el transito).
+° Injection + Cross site scripting:
+Cuando una aplicacion se vuelve vulnerable a una inyeccion de datos, cuando permite que un codigo externo sea ejecutado al contaminar algun parametro recibido por la aplicacion web, lo cual permite que un atacante tome el control del servidor o robe una gran cantidad de datos confidenciales. Este puede ser por algun dato malicioso que ingresen en la pagina web y se puede observar desde la base de datos. 
+
+Como se puede observar el OWASP TOP 10 ha cambiado y modificado el esquema de un analisis de cibersegurirdad dando por hecho que la injection no es ya no es el mayor problema, ni el mayor enfoque en esta ultima actualizacion de su estructura. 
+
+Para poder aplicar esto dentro de nuestro proyecto hemos decidido utilizar OWASP TOP 10 para buscar alguna vulnerabilidad y de ahi poder mejorar y asegurar nuestro trabajo, basicamente estamos haciendo el trabajo de un hacker de sombrero blanco y parchar nuestros errores de seguridad.   
+
+Para esto encontramos un scan que nos permitira hacerlo, una vez terminando de montar toda nuestra aplicacion esto debera generarnos una ip de donde se encuentra el contenedor y esa es la que analizaremos con ayuda de un OWASP SCANNER ONLINE, tenemos una gran variedad, ejemplo: Acunetix, app scanner, app spider, etc. 
+
+
 
  
