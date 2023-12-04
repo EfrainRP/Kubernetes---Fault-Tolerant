@@ -3,7 +3,12 @@
 CARRERA: **Ingeniería en Computación**
 
 **Efrain Robles Pulido** CÓDIGO: **221350095**
+
 **Andrea Gaspar Miramontes** CÓDIGO: **221350664**
+
+**Miguel Alejandro Lomeli Haro** CÓDIGO: ****
+
+**Fernanda** CÓDIGO: ****
 
 **Computación Tolerante a Fallas**
 
@@ -90,7 +95,10 @@ Finamlmente ya que se ejecuto el comando anterior, ahora se tiene que instalar e
 
 Para visualizar el panel de kiali, primero se tiene que ejecutar los siguiente `kubectl apply -f samples/addons/kiali.yaml` donde tienes que estar dentor de la carpeta de istio en el cmd.
 
+Además de que si queremos ver la grafica del flujo de informacion de nuestra pagina deberemos de instalar otra sub-herramienta de Istio llamada ***"prometheus"***, asi que ejecutaremos el comando `kubectl apply -f samples/addons/prometheus.yaml`.
+
 Y despues de todo lo anterior solo tienes que ejecutar lo siguiente `kubectl dashboard kiali` y ya podras ver el panel de Kiali.
 
 ![image](https://github.com/EfrainRP/Kubernetes---Fault-Tolerant/blob/main/Images/imagen%204.jpg)
 
+ 
