@@ -74,4 +74,23 @@ Podras pobrar con los comandos explicados anteriormente, para poder observar el 
 
 ## Istio
 
-Y aquí va a ir lo de Istio
+Primero descargamos la ultima version de Istio, que en nuestr caso fue istio-1.20.0-win.zip, esto en la pagina https://github.com/istio/istio/releases.
+
+Abrimos en la barra de tareas, editar "Editar las variables de entorno del sistema". Dentro de las variables del usuario editamos la variable path y agregamos una nueva entrada a la carpeta `bin`
+
+imagen 1
+
+Despues en el cmd ejecutamos el comando `istioctl`
+
+imagen 2
+
+Finamlmente ya que se ejecuto el comando anterior, ahora se tiene que instalar el perfil demo mediante el siguiente comando `istioctl manifest apply --set profile=demo`
+
+imagen 3
+
+Para visualizar el panel de kiali, primero se tiene que ejecutar los siguiente `kubectl apply -f samples/addons/kiali.yaml` donde tienes que estar dentor de la carpeta de istio en el cmd.
+
+Y despues de todo lo anterior solo tienes que ejecutar lo siguiente `kubectl dashboard kiali` y ya podras ver el panel de Kiali.
+
+imagen 4
+
